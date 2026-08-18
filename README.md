@@ -25,7 +25,7 @@ Single-threaded HTTP rate-limit testing helper that combines client-IP headers w
 Place these files in the same directory:
 
 ```text
-rate_test.sh
+rate_limit_bypass.sh
 request.txt
 headers.txt
 formats.txt
@@ -46,19 +46,19 @@ results.csv
 ### Make the script executable
 
 ```bash
-chmod +x rate_test.sh
+chmod +x rate_limit_bypass.sh
 ```
 
 ### Run the script
 
 ```bash
-./rate_test.sh METHOD https://host/path
+./rate_limit_bypass.sh METHOD https://host/path
 ```
 
 Example:
 
 ```bash
-./rate_test.sh POST https://portal.example.test/account/recovery/request
+./rate_limit_bypass.sh POST https://portal.example.test/account/recovery/request
 ```
 
 The HTTP method must be uppercase.
