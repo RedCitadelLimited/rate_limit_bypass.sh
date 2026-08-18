@@ -4,7 +4,7 @@ Single-threaded HTTP rate-limit testing helper that combines client-IP headers w
 
 ## Overview
 
-`rate_test.sh` is intended for authorised testing of HTTP rate limiting and proxy/client-IP handling.
+`rate_limit_bypass.sh` is intended for authorised testing of HTTP rate limiting and proxy/client-IP handling.
 
 ### What it does
 
